@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--* A mi me gusta utilizar preprocesadores de CSS porque optimizan el código y lo hacen más ligero además de que en proyectos reales es muy raro utilizar CSS puro, usualmente usan librerías o frameworks -->
+    <link rel="stylesheet" href="css/main.css">
+    <!--! No olvides cambia el título del documento porque aparece el nombre en la pestaña -->
+    <title>Document</title>
+</head>
+<body>
+    <!--* Agregue una etiqueta main para contener todos los elementos y tenerlos en un marco resposivo -->
+    <main class="container">
+        <header class="header">
+            <h1 id="titulo" class="header__title">Blog de prueba</h1>
+            <hr class="header__separation">
+        </header>
+        <div class="small-section">
+            <p>soy un parrafo dentro de un div</p>
+        </div>
+        <section class="list-articles">
+            <article class="list-articles__article">
+                <h2 class="list-articles__article__title">Mi primer blog</h2>
+                <p>Blog de prueba con tutorial</p>
+                <img src="hobi.png" width="700"/>
+                <p>Texto de prueba</p>
+            </article>
+            <article class="list-articles__article">
+                <h2 class="list-articles__article__title">Titulo 2</h2>
+                <p>Blog de prueba con tutorial</p>
+                <img src="jhope.png" width="700"/>
+                <p>Texto de prueba</p>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class=" footer__links container">
+            <a href="#titulo">ir al comienzo</a>
+            <a href="mailto:jashirasandra1@gmail.com">jashirasandra1@gmail.com</a>
+        </section>
+    </footer>
+</body>
+</html>
